@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var greeting: UITextView!
     @IBOutlet weak var mainBackGround: UIImageView!
     
+    @IBOutlet weak var buttonLayout: UIButton!
     
     
     
@@ -38,7 +39,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-print("Hello This is a change i made...")   }
+buttonLayout.layer.cornerRadius = 10
+        
+        
+        print("Hello This is a change i made...")   }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -56,27 +60,35 @@ var musicPlayerChanger = 0
             mainBackGround.backgroundColor = UIColor.red
             greeting.text = "These colors are kind of cool!"
             greeting.backgroundColor = UIColor.red
+            buttonLayout.layer.position.y = 255
+            buttonLayout.layer.position.x = 255
         }
         if changeColor == 2{
             mainBackGround.backgroundColor = UIColor.green
             greeting.backgroundColor = UIColor.green
             greeting.text = "Kind of cool how i can change colors."
-        }
+            buttonLayout.layer.position.y = 220
+        buttonLayout.layer.position.x = 200}
         if changeColor == 3{
             mainBackGround.backgroundColor = UIColor.yellow
             greeting.backgroundColor = UIColor.yellow
             greeting.text = "When i change the value of changeColor."
+            buttonLayout.layer.position.y = 200
+            buttonLayout.layer.position.x = 280
         }
         if changeColor == 4{
             mainBackGround.backgroundColor = UIColor.blue
             greeting.backgroundColor = UIColor.blue
             greeting.text = "Everything is just a little more interesting when you learn how to code."
-            
+            buttonLayout.layer.position.y = 230
+            buttonLayout.layer.position.x = 200
         }
         if changeColor == 5{
             mainBackGround.backgroundColor = UIColor.purple
             greeting.backgroundColor = UIColor.purple
             greeting.text = "Like the possibilities are endless"
+            buttonLayout.layer.position.y = 250
+            buttonLayout.layer.position.x = 250
         }
         if changeColor > 5 {changeColor = changeColor - 6}
 }

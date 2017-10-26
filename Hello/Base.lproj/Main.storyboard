@@ -44,6 +44,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="buttonLayout" destination="UGZ-GG-l7o" id="0P6-jz-Nwf"/>
                         <outlet property="greeting" destination="mqX-GC-D5I" id="Kpi-Tr-kQG"/>
                         <outlet property="mainBackGround" destination="N3y-6z-9Mj" id="Fbn-7a-lWI"/>
                     </connections>

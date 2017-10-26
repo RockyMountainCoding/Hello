@@ -7,10 +7,33 @@
 //
 
 import UIKit
-
+import AVFoundation
+var player: AVAudioPlayer?
 class ViewController: UIViewController {
     @IBOutlet weak var greeting: UITextView!
     @IBOutlet weak var mainBackGround: UIImageView!
+    
+    
+    
+    
+    
+    
+    
+    func playSound() {
+        let url = Bundle.main.url(forResource: "01 On Your Wings", withExtension: "mp3")!
+        
+        do {
+            player = try AVAudioPlayer(contentsOf: url)
+            guard let player = player else { return }
+            
+            player.prepareToPlay()
+            player.play()
+        } catch let error as NSError {
+            print(error.description)
+        }
+    }
+
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,7 +45,12 @@ print("Hello This is a change i made...")   }
         // Dispose of any resources that can be recreated.
     }
 var changeColor = 0
+var musicPlayerChanger = 0
     @IBAction func OHYA(_ sender: Any) {
+        if musicPlayerChanger == 0{
+            playSound()
+            musicPlayerChanger = musicPlayerChanger + 1
+        }
         changeColor = changeColor + 1
         if changeColor == 1{
             mainBackGround.backgroundColor = UIColor.red

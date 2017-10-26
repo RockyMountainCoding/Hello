@@ -14,6 +14,7 @@
 		5117FC141FA133800098102D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5117FC121FA133800098102D /* LaunchScreen.storyboard */; };
 		5117FC1F1FA133800098102D /* HelloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117FC1E1FA133800098102D /* HelloTests.swift */; };
 		5117FC2A1FA133800098102D /* HelloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117FC291FA133800098102D /* HelloUITests.swift */; };
+		5117FC381FA238390098102D /* 01 On Your Wings.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5117FC371FA238390098102D /* 01 On Your Wings.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5117FC251FA133800098102D /* HelloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5117FC291FA133800098102D /* HelloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloUITests.swift; sourceTree = "<group>"; };
 		5117FC2B1FA133800098102D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5117FC371FA238390098102D /* 01 On Your Wings.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 On Your Wings.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				5117FC101FA133800098102D /* Assets.xcassets */,
 				5117FC121FA133800098102D /* LaunchScreen.storyboard */,
 				5117FC151FA133800098102D /* Info.plist */,
+				5117FC371FA238390098102D /* 01 On Your Wings.mp3 */,
 			);
 			path = Hello;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				5117FC141FA133800098102D /* LaunchScreen.storyboard in Resources */,
 				5117FC111FA133800098102D /* Assets.xcassets in Resources */,
 				5117FC0F1FA133800098102D /* Main.storyboard in Resources */,
+				5117FC381FA238390098102D /* 01 On Your Wings.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

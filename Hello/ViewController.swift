@@ -32,19 +32,23 @@ var changeColor = 0
         if changeColor == 2{
             mainBackGround.backgroundColor = UIColor.green
             greeting.backgroundColor = UIColor.green
+            greeting.text = "Kind of cool how i can change colors."
         }
         if changeColor == 3{
             mainBackGround.backgroundColor = UIColor.yellow
             greeting.backgroundColor = UIColor.yellow
+            greeting.text = "When i change the value of changeColor."
         }
         if changeColor == 4{
             mainBackGround.backgroundColor = UIColor.blue
             greeting.backgroundColor = UIColor.blue
+            greeting.text = "Everything is just a little more interesting when you learn how to code."
             
         }
         if changeColor == 5{
             mainBackGround.backgroundColor = UIColor.purple
             greeting.backgroundColor = UIColor.purple
+            greeting.text = "Like the possibilities are endless"
         }
         if changeColor > 5 {changeColor = changeColor - 6}
 }

@@ -15,6 +15,7 @@
 		5117FC1F1FA133800098102D /* HelloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117FC1E1FA133800098102D /* HelloTests.swift */; };
 		5117FC2A1FA133800098102D /* HelloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117FC291FA133800098102D /* HelloUITests.swift */; };
 		5117FC381FA238390098102D /* 01 On Your Wings.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5117FC371FA238390098102D /* 01 On Your Wings.mp3 */; };
+		5117FC3A1FA42F7B0098102D /* printDescriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117FC391FA42F7B0098102D /* printDescriptions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5117FC291FA133800098102D /* HelloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloUITests.swift; sourceTree = "<group>"; };
 		5117FC2B1FA133800098102D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5117FC371FA238390098102D /* 01 On Your Wings.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 On Your Wings.mp3"; sourceTree = "<group>"; };
+		5117FC391FA42F7B0098102D /* printDescriptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = printDescriptions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				5117FC091FA133800098102D /* AppDelegate.swift */,
 				5117FC0B1FA133800098102D /* ViewController.swift */,
+				5117FC391FA42F7B0098102D /* printDescriptions.swift */,
 				5117FC0D1FA133800098102D /* Main.storyboard */,
 				5117FC101FA133800098102D /* Assets.xcassets */,
 				5117FC121FA133800098102D /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 			files = (
 				5117FC0C1FA133800098102D /* ViewController.swift in Sources */,
 				5117FC0A1FA133800098102D /* AppDelegate.swift in Sources */,
+				5117FC3A1FA42F7B0098102D /* printDescriptions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -42,6 +42,14 @@ class ViewController: UIViewController {
 buttonLayout.layer.cornerRadius = 10
         
         
+        let whale = marineLife()
+        whale.elevation = 274
+        whale.food = "Plankton"
+        whale.speciesName = "Whale"
+        whale.speciesType = "mammal"
+        whale.printStuff()
+        
+        
         print("Mike is learning git")   }
 
     override func didReceiveMemoryWarning() {
@@ -68,7 +76,7 @@ buttonLayout.layer.cornerRadius = 10
             greeting.backgroundColor = UIColor.green
             greeting.text = "Kind of cool how i can change colors."
             buttonLayout.layer.position.y = 220
-        buttonLayout.layer.position.x = 200}
+            buttonLayout.layer.position.x = 200}
         if changeColor == 3{
             mainBackGround.backgroundColor = UIColor.yellow
             greeting.backgroundColor = UIColor.yellow

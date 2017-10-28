@@ -42,7 +42,7 @@ class ViewController: UIViewController {
 buttonLayout.layer.cornerRadius = 10
         
         
-        print("Hello This is a change i made...")   }
+        print("Mike is learning git")   }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

@@ -48,8 +48,8 @@ buttonLayout.layer.cornerRadius = 10
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-var changeColor = 0
-var musicPlayerChanger = 0
+  var changeColor = 0
+  var musicPlayerChanger = 0
     @IBAction func OHYA(_ sender: Any) {
         if musicPlayerChanger == 0{
             playSound()

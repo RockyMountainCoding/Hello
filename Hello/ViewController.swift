@@ -99,6 +99,7 @@ buttonLayout.layer.cornerRadius = 10
             buttonLayout.layer.position.x = 250
         }
         if changeColor > 5 {changeColor = changeColor - 6}
+        print("Sup!")
 }
     
 }
